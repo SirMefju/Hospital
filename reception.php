@@ -131,7 +131,7 @@ if(isset($_POST['submit']))
   $email = $_POST['email'];
   $description_disease = $_POST['descripton_disease'];
   $sql = "INSERT INTO reception (first_name,surname,pesel,email,description_disease)
-  VALUES ('$first_name','$surname','$pesel','$email','$descripton')";
+  VALUES ('$first_name','$surname','$pesel','$email','$descripton_disease')";
   $db -> query($sql);
 }
 mysqli_close($db);

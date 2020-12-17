@@ -2,13 +2,13 @@
 include_once "connect.php";
 if(isset($_POST['submit']))
 {
-  $name = $_POST['first_name'];
+  $first_name = $_POST['first_name'];
   $surname = $_POST['surname'];
   $pesel = $_POST['pesel'];
   $email = $_POST['email'];
-  $email = $_POST['description_desease'];
+  $description_disease = $_POST['description_disease'];
   $sql = "INSERT INTO reception (first_name,surname,pesel,email,description_desease)
-  VALUES ('$first_name','$surname','$pesel','$email','$description_desease')";
+  VALUES ('$first_name','$surname','$pesel','$email','$description_disease')";
   $db -> query($sql);
 }
 mysqli_close($db);

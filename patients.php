@@ -119,7 +119,7 @@
       <li><a href="doctors.php">Doctors</a></li>
       <li><a class="active" href="patients.php">Patients</a></li>
       <li><a href="visits.php">Visits</a></li>
-      <li><a href="zgloszenia.php">Applications</a></li>
+      <li><a href="reception.php">Applications</a></li>
     </ul>
     <table>
     <h1>Patients</h1>
