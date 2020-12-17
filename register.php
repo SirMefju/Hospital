@@ -7,7 +7,6 @@
    $sql = "select * from users";
 
    $result = $polaczenie->query($sql);
-   ?>
 ?>
 <!doctype html>
 <html lang="en">
@@ -58,7 +57,7 @@
       text-decoration: none;
     }
   </style>
-  <title>Logowanie</title>
+  <title>Login</title>
 </head>
 
 <body>
@@ -74,13 +73,13 @@
       <h3>Registration</h3>
       <form action="insertusers.php" method="post">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Login *" value="" name="username" />
+          <input type="text" class="form-control" placeholder="login" value="" name="username" />
         </div>
         <div class="form-group">
-          <input type="password" class="form-control" placeholder="Hasło *" value="" name="password"/>
+          <input type="password" class="form-control" placeholder="password" value="" name="password"/>
         </div>
         <div class="form-group">
-          <input id="button" type="submit" value="Zarejestruj" name="submit"/>
+          <a href="reception.php"> Create an account </a>
         </div>
       </form>
     </div>

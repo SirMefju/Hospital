@@ -16,7 +16,7 @@
          if($myusername == 'admin') {
          header("location: welcome.php");
        } else {
-         header("location: pacjentform.php");
+         header("location: patientform.php");
        }
       }else {
          $error = " Incorrect data";
@@ -88,10 +88,10 @@
       <h3>Login</h3>
       <form action="" method="post">
         <div class="form-group">
-          <input type="text" name="username" class="form-control" placeholder="Login *" value="" />
+          <input type="text" name="username" class="form-control" placeholder="Login" value="" />
         </div>
         <div class="form-group">
-          <input type="password" name="password" class="form-control" placeholder="Password *" value="" />
+          <input type="password" name="password" class="form-control" placeholder="Password" value="" />
         </div>
         <div class="form-group">
           <input id="button" type="submit" class="btnSubmit" value="Login" />

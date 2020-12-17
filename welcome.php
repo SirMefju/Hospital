@@ -22,7 +22,7 @@
       margin: 0;
       padding: 0;
       overflow: hidden;
-      background-color: #ADD8E6;
+      background-color: #387BFF;
     }
     li {
       float: center;
