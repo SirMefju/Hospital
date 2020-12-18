@@ -17,12 +17,10 @@ $result = $polaczenie->query($sql);
       padding: 1%;
       background: #0062cc;
     }
-
     .form h3 {
       text-align: left;
       color: #fff;
     }
-
     #button {
       width: 50%;
       border-radius: 1rem;
@@ -56,11 +54,9 @@ $result = $polaczenie->query($sql);
       overflow: hidden;
       background-color: #004996;
     }
-
     li {
       float: left;
     }
-
     li a {
       display: block;
       color: white;
@@ -68,11 +64,9 @@ $result = $polaczenie->query($sql);
       padding: 14px 16px;
       text-decoration: none;
     }
-
     li a:hover {
       background-color: #004996;
     }
-
     .active {
       background-color: #004996;
     }

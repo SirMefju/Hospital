@@ -14,7 +14,6 @@ if(isset($_POST['submit']))
   $sql = "INSERT INTO visit (doctor_name, doctor_surname, doctor_specialization, patient_name, patient_surname, patient_pesel, patient_date_of_birth, patient_email, visit_date)
   VALUES ('$doctor_name','$doctor_surname','$doctor_specialization','$patient_name','$patient_surname','$patient_pesel','$patient_date_of_birth','$patient_email','$visit_date')";
   $db -> query($sql);
-
   $subject = 'Visit in Hospital';
   $message = 'Your visit in hospital will be '.$visit_date.' at the doctor '.$doctor_name." ".$doctor_surname;
   $headers =
